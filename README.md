@@ -1,4 +1,4 @@
-# AI-Powered-Real-Time-Chat-Agent-with-Web-Search-Memory-and-Calculations-n8n-Gemini-SerpAPI-
+
 # 🤖 Serp AI Agent – n8n + Gemini + Pinecone + SerpAPI
 
 A **Retrieval-Augmented Generation (RAG) AI Agent** built with **n8n**, **Google Gemini**, **Pinecone Vector Database**, and **SerpAPI**.  
