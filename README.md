@@ -1,40 +1,41 @@
 
 # 🤖 Serp AI Agent – n8n + Gemini + Pinecone + SerpAPI
 
-A **Retrieval-Augmented Generation (RAG) AI Agent** built with **n8n**, **Google Gemini**, **Pinecone Vector Database**, and **SerpAPI**.  
+# 🤖 Serp AI Agent – n8n + Gemini + SerpAPI  
+
+A **Real-Time AI Agent** built with **n8n**, **Google Gemini**, and **SerpAPI**.  
+This project demonstrates how to build an **AI Agent that answers real-time updated questions**, performs calculations, and maintains conversation context — all inside an **n8n workflow**.  
+
 ![Serp AI Agent Workflow](serpAPI.JPG)
-
-
-This agent can:  
-- Answer **real-time questions** with live web search  
-- Retrieve **document-based knowledge** via Pinecone  
-- Perform **calculations** automatically  
-- Maintain **conversation memory**  
-- Integrate with websites through a **chat widget**  
 
 ---
 
 ## 🌟 Features
-- 🔍 **Document Retrieval (RAG)** using Pinecone  
 - 💬 **Conversational AI** powered by Google Gemini Chat Model  
-- 🌐 **Real-time Search** with SerpAPI for updated information  
-- 🧮 **Mathematical Calculations** with n8n Calculator node  
-- 🧠 **Conversation Memory** (Simple Memory Node)  
-- ⚡ **Webhook Integration** for embedding into websites  
-- 📊 **Multi-tool Orchestration** through n8n AI Agent node  
+- 🌐 **Real-time Web Search** with SerpAPI (live Google search results)  
+- 🧮 **Mathematical Calculations** using n8n Calculator node  
+- 🧠 **Conversation Memory** with Simple Memory node  
+- ⚡ **Webhook Integration** for embedding into websites (chat widget support)  
+- 📊 **Multi-tool Orchestration** via n8n AI Agent node  
 
 ---
 
 ## 🛠️ Tech Stack
 - [n8n](https://n8n.io/) – Workflow automation & orchestration  
-- [Google Gemini](https://ai.google.dev/) – Chat + Embeddings  
-- [Pinecone](https://www.pinecone.io/) – Vector database for semantic search  
+- [Google Gemini](https://ai.google.dev/) – Conversational AI  
 - [SerpAPI](https://serpapi.com/) – Real-time search API  
 - [Calculator Node (n8n)] – For numeric computation  
+- [Simple Memory (n8n)] – To maintain context across queries  
 
 ---
 
-## 📸 Screenshots  
+## 🚀 Setup Instructions  
+
+### 1️⃣ Clone this repo  
+```bash
+git clone https://github.com/yourusername/serp-ai-agent.git
+cd serp-ai-agent
+
 
 ### Example 1 – Query about Top 10 Restaurants in Lahore  
 ![Chat Answers](chatanswers.JPG)
