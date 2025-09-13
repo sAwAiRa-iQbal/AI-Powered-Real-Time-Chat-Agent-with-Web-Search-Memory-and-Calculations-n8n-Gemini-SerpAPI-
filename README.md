@@ -1,7 +1,6 @@
 
 # 🤖 Serp AI Agent – n8n + Gemini + Pinecone + SerpAPI
-
-# 🤖 Serp AI Agent – n8n + Gemini + SerpAPI  
+ 
 
 A **Real-Time AI Agent** built with **n8n**, **Google Gemini**, and **SerpAPI**.  
 This project demonstrates how to build an **AI Agent that answers real-time updated questions**, performs calculations, and maintains conversation context — all inside an **n8n workflow**.  
