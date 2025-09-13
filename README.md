@@ -2,6 +2,8 @@
 # 🤖 Serp AI Agent – n8n + Gemini + Pinecone + SerpAPI
 
 A **Retrieval-Augmented Generation (RAG) AI Agent** built with **n8n**, **Google Gemini**, **Pinecone Vector Database**, and **SerpAPI**.  
+![Serp AI Agent Workflow](serpAPI.JPG)
+
 
 This agent can:  
 - Answer **real-time questions** with live web search  
